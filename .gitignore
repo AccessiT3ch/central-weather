@@ -1,0 +1,20 @@
+# Build artifacts
+build/
+bin/
+obj/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# SQLite databases & local backups
+*.db
+*.db-journal
+*.db-wal
+backups/
+
+# OS files
+.DS_Store
+Thumbs.db
